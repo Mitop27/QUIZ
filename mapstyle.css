@@ -1,0 +1,48 @@
+/* ////////////////////////////////  mapa.html \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+body{
+    background-color: navajowhite;
+}
+
+
+iframe{
+    width: 100%;
+}
+map_text{
+    font-weight: bolder;
+    font-size: 120%;
+    font-family: Calibri;
+
+
+
+}
+div{
+    background-color: white;
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+
+p{
+    padding-top: 20px;
+    padding-left: 25px;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.scroll_button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    opacity: 0.7;
+    background-color: chocolate;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    border-color: coral;
+    cursor: grab;
+}
+.scroll_button:hover{
+    background-color: #555;
+}

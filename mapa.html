@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="mapstyle.css">
+</head>
+<body>
+<button class="scroll_button" title="Auto Scroll">Back to the top</button>
+<div class="auto_scroll"></div>
+
+<div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.0906020155376!2d-97.06504319899548!3d32.73678481851322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e87a1f4d07fa7%3A0xab62417bbe92be31!2sGeneral+Motors%2C+Llc+%E2%80%A2+Arlington+Assembly!5e0!3m2!1spl!2spl!4v1540403632878"  height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="container-fluid">
+
+
+<map_text>
+      Arlington Assembly<br>
+       2525 E Abram<br>
+       Arlington, Texas<br>
+       76010 United States
+</map_text>
+
+    <p>Some facts</p>
+    <ul type="square">
+        <li>Plant production began January 6, 1954.</li>
+        <li>First car built was a 4-door black Pontiac Chieftain.</li>
+        <li>Starting hourly wage rate for a line operator in 1954 was $1.78.</li>
+        <li>Plant production began with full size cars, followed by intermediate cars, and then returning to full size cars.</li>
+    </ul>
+
+    <p>Production history of Chevrolet vehicles</p>
+    <ul type="circle">
+        <li>Biscayne (1963-1970)</li>
+        <li>Impala (1963-1970)</li>
+        <li>Bel-Air (1963-1970)</li>
+        <li>Caprice (1966-1967)</li>
+        <li>Chevelle (1968-1977)</li>
+        <li>Monte Carlo (1972-1987)</li>
+        <li><span style="color: red"> El Camino (1973-1977, 1979-1984)</span></li>
+        <li>Malibu (1978-1983)</li>
+        <li>Caballero (1979-1984)</li>
+        <li>Caprice (1988-1996)</li>
+        <li>Regular Cab (1997-1999)</li>
+        <li>Extended Cab (1997-1998)</li>
+        <li>Tahoe (1998- Present)</li>
+        <li>Suburban (2001-Present)</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <textarea>luj</textarea>
+</div>
+
+
+
+<script>
+    window.onscroll = function () {
+        showTopButton()
+    };
+
+    let auto_up = document.querySelector('.scroll_button');
+
+    auto_up.addEventListener("click", goToTop);
+
+    function showTopButton() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.querySelector(".scroll_button").style.display = "block";
+        } else {
+            document.querySelector(".scroll_button").style.display = "none";
+        }
+    }
+
+    function goToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<meta charset="utf-8">
+</body>

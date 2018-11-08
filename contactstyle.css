@@ -1,0 +1,23 @@
+body{
+
+    background-color: whitesmoke;
+
+}
+.buttons{
+
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.invalid{
+    border: solid 5px red;
+}
+
+.valid{
+    border: solid 5px green;
+}
+
+.valid_frame{
+    font-size: x-small;
+    font-style: italic;
+}
